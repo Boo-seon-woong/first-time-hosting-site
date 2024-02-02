@@ -3,7 +3,10 @@ body{
 }
 a{
     text-decoration:none ;
-    color:black;
+    color: inherit;
+}
+.icon{
+    border:5px solid black;
 }
 .ver{
     margin-top:0px;
@@ -29,13 +32,13 @@ a{
         display:grid;
         grid-template-columns: repeat(1,1fr);
         place-items: center;
-        border:1px solid black;
+        border:1px solid inherit;
         padding: 0px;
         white-space: nowrap;
     }
     .container{
         display:block;
-        border:1px solid black;
+        border:1px solid inherit;
     }
     .ver{
     margin-top:0px;
