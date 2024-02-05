@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>pianistar by boo</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/JavaScript" src="function.js"></script>
     </head>
 
     <body>
@@ -14,37 +15,7 @@
         <hr style="border:4px solid black;margin-bottom:0px;">
         <hr style="border:4px solid rgb(100, 58, 0);margin-top:0px; margin-bottom: 0px;">
         <u><h4 style="margin: 0px; border:0px solid black;">made by boo<br>2024-01-09</h4></u>
-        <input class="tog" type="button" value="night" onclick="
-    if(document.querySelector('.tog').value === 'night'){
-        document.querySelector('body').style.backgroundColor = 'black';
-        document.querySelector('body').style.color = 'white';
-        document.querySelector('.ver').style.color = 'white';
-        document.querySelector('.container').style.border = '1px solid white';
-        document.querySelector('.title').style.border = '1px solid white';
-        document.querySelector('.icon').style.backgroundColor = 'rgb(208,208,208)';
-        document.querySelector('.tog').value='day';
-        document.querySelectorAll('hr')[0].style = 'border:4px solid rgb(67,38,14);margin-bottom:0px;';
-        if(document.documentElement.clientWidth > 1000){
-            document.querySelector('.ver').style.borderRight = '1px solid white'
-        }else{
-            document.querySelector('ver').style.borderBottom = '1px solid white'
-        }
-    }else{
-        document.querySelector('body').style.backgroundColor = 'rgb(208, 208, 208)';
-        document.querySelector('body').style.color = 'black';
-        document.querySelector('.ver').style.color = 'black';
-        document.querySelector('.container').style.border = '1px solid black';
-        document.querySelector('.title').style.border = '1px solid black';
-        document.querySelector('.icon').style.backgroundColor = 'rgb(208,208,208)';
-        document.querySelector('.tog').value='night';
-        document.querySelectorAll('hr')[0].style = 'border:4px solid black;margin-bottom:0px;';
-        if(document.documentElement.clientWidth > 1000){
-            document.querySelector('.ver').style.borderRight = '1px solid black'
-        }else{
-            document.querySelector('ver').style.borderBottom = '1px solid black'
-        }
-    }
-">
+        <input class="tog" type="button" value="night" onclick=nightdayhandler()>
     <p style="font-size:30px;margin-left:20px; border: 1px solid black; margin:0px"><strong>CONTENTS</strong></p>
     <div class="container">
         <ul class="ver">
