@@ -1,4 +1,5 @@
 function nightdayhandler(self){
+    var a=document.querySelector;
     if(document.querySelector('.tog').value === 'night'){
         document.querySelector('body').style.backgroundColor = 'black';
         document.querySelector('body').style.color = 'white';
