@@ -6,6 +6,9 @@
     <body>
         <ul>
             <script>
+                var alphabet={
+                    "a":"A","b":"B","c":"C","d":"D","e":"E","f":"F","g":"G","h":"H"
+                }
                 function a(b){  
                     document.write('<a href="index.html"><p>this is function'+b+'</p></a>');
                 }
@@ -17,6 +20,16 @@
                     document.write('</li>');
                     i+=1;
                 }
+                alphabet.showall = function(){
+                    document.write('<p>list alphabet</p> <p>');
+                    for(var key in alphabet){
+                        if(key=='showall') continue;
+                        document.write('key : '+key+', value : '+alphabet[key]+'<br>');
+                    }
+                    document.write('<br>is this code still connected with line 15?<br>the answer was "yes of course"</p>');
+                }
+                document.write('<h1>from the below it is function alphabet.showall()</h1>');
+                alphabet.showall();
             </script>
         </ul>
     </body>
