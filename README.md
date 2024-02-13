@@ -10,31 +10,7 @@ readme 만들기 귀찮다 ㄹㅇ로<br>글고 왜 갑자기 git push할때마�
   <br/>
   <br/>
 
-  <a href='https://paperswithcode.com/task/image-super-resolution'>
-    <img src="https://img.shields.io/badge/html-Image%20Super%20Resolution-25c2a0?style=flat-square"/>
-  </a>
-  <a href='https://github.com/XPixelGroup/HAT'>
-    <img src="https://img.shields.io/badge/XPixelGroup-HAT-EF2D5E?style=flat-square"/>
-  </a>
-  <a href='https://github.com/xinntao/ESRGAN?tab=readme-ov-file'>
-    <img src="https://img.shields.io/badge/Xintao-ESRGAN-EF2D5E?style=flat-square"/>
-  </a>
-  <img src="https://img.shields.io/badge/Weights%20&%20Biases-dea500?style=flat-square&logo=weightsandbiases&logoColor=white&text=white"/>
-  </br>
-  
-  <a href='https://paperswithcode.com/task/object-detection-in-aerial-images'>
-    <img src="https://img.shields.io/badge/Paperswithcode-Object%20Detection%20In%20Aerial%20Images-25c2a0?style=flat-square"/>
-  </a>
-  <a href='https://github.com/open-mmlab/mmrotate'>
-    <img src="https://img.shields.io/badge/OpenMMLab-MMRotate-EF2D5E?style=flat-square"/>
-  </a>
-  <a href='https://github.com/ZFTurbo/Weighted-Boxes-Fusion'>
-    <img src="https://img.shields.io/badge/Ensemble-Weighted%20Boxes%20Fusion-EF2D5E?style=flat-square"/>
-  </a>
-  <br/>
-
-  
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/html-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white"/>
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
