@@ -10,7 +10,7 @@ readme 만들기 귀찮다 ㄹㅇ로<br>글고 왜 갑자기 git push할때마�
   <br/>
   <br/>
 
-  <img src="https://img.shields.io/badge/html-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/html-000000?style=flat-square&logo=asd&logoColor=white"/>
   <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white"/> 
   <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white"/>
   <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
