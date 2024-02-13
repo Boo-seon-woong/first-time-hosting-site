@@ -1,7 +1,3 @@
-<h1>first time hosting site</h1>
-readme 만들기 귀찮다 ㄹㅇ로<br>글고 왜 갑자기 git push할때마다 아이디 묻는지 모르겠음 가상 메모리 껐다가 다시 켜서 그른가 아니면 그냥 token 기본 30일이 만료돼서 그러는건가
-<br>2024-02-13 node.js && typescript 개발환경 구축(굳이 ubuntu에서 할 이유는 없지만 그냥 객기로 계속 ubuntu에서 할거임) 공부는 내일부터
-
 # first time hosting site
 
 <p align="center">
