@@ -3,19 +3,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const addButton = document.querySelector('#add-button')
     const todoList = document.querySelector('#todo-list')
     const alert = document.querySelector('span')
-
+    const delete_butten=document.querySelector('#delete');
+    const delete_checked=document.querySelector('#delete-checked');
       // '+' 버튼 익명 화살표 함수 
     const addTodo = () => {
         if (input.value !== '') {
             const item = document.createElement('div')
+            item.id='todo_element'
           // 체크박스
             const checkbox = document.createElement('input')
             checkbox.type='checkbox'
          // text
             const text = document.createElement('span');
-          // 제거하기 버튼
+          // 삭제
             const deleteButton = document.createElement('button')
-            deleteButton.textContent="제거하기"
+            deleteButton.textContent="삭제"
 
             text.textContent = input.value
             input.value=''
@@ -44,8 +46,26 @@ document.addEventListener('DOMContentLoaded', () => {
             alert.textContent = ''
         }
         else
-            alert.textContent = '할 일을 입력하세요!'
+            alert.textContent = '입력 없음'
     }
+    const deleting = () => {
+        let selected = document.querySelectorAll('#todo_element');
+        for(let i=0;i<selected.length;i++){
+            selected[i].remove();
+        }
+        //대충 체크된 item들 다 지우는 내용
+    }
+    const deleting_checked = () => {
+        let selected = document.querySelectorAll('#todo_element');
+        for(let i=0;i<selected.length;i++){
+            if(selected[i].children[0].checked){
+            selected[i].remove();}
+        }
+        //대충 체크된 item들 다 지우는 내용
+    }
+    delete_butten.addEventListener('click',deleting);
+
+    delete_checked.addEventListener('click',deleting_checked);
 
     addButton.addEventListener('click', addTodo)
 
